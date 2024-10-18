@@ -1,0 +1,78 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/windows,macos,linux
+# Editar en https://www.toptal.com/developers/gitignore?templates=windows,macos,linux
+
+### Linux ###
+*~
+
+# archivos temporales que se pueden crear si un proceso aún tiene abierto el identificador de un archivo eliminado
+.fusible_oculto*
+
+# Preferencias del directorio de KDE
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él
+.nfs*
+
+### macOS ###
+# General
+Tienda .DS_Store
+.manzana doble
+.LSOverride (anulación de LSO)
+
+# El icono debe terminar con dos \r
+Icono
+
+
+# Miniaturas
+._*
+
+# Archivos que pueden aparecer en la raíz de un volumen
+.Revisiones del documento-V100
+.fseventsd
+Foco-V100
+.Elementos temporales
+.basuras
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios potencialmente creados en un recurso compartido AFP remoto
+.Base de datos de Apple
+.Escritorio de Apple
+Carpeta de basura de red
+Artículos temporales
+.disco ap
+
+### Parche para macOS ###
+# Archivos generados por iCloud
+*.icloud
+
+### Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Pulgares.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+*.dump de pila
+
+# Archivo de configuración de carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en recursos compartidos de archivos
+$PAPELETO DE RECICLAJE/
+
+# Archivos del instalador de Windows
+*.taxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atajos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/windows,macos,linux
